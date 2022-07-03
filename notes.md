@@ -18,6 +18,12 @@ Replaced by Resilience4j
 # Kubernetes  
 --  Orchestrates all your microservices using kubernetes  
 
+# Instance  
+--  An instance is a microservice copy  
+
+# Naming Server    
+--  Has 2 main features MS registration, and MS discovery     
+
 
 
 
