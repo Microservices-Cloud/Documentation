@@ -1,0 +1,15 @@
+version: '2.2'
+
+services:
+  currency-exchange:
+    image: 'elfn/springcloud-currency-exchange-service:0.0.1-SNAPSHOT'
+    mem_limit: 700m
+    ports:
+      - "8002:8002"
+    networks:
+      - currency-network
+
+networks:
+  currency-network: 
+
+
